@@ -1,0 +1,24 @@
+{
+  "nav.home": "Inicio",
+  "nav.translate": "Traducir",
+  "nav.mail": "Correo y Facturas",
+  "nav.more": "Más",
+  "nav.about": "Acerca de",
+  "nav.contact": "Contacto",
+  "nav.privacy": "Privacidad",
+  "nav.terms": "Términos",
+
+  "mb.title": "Asistente de correo y facturas",
+  "mb.subtitle": "Sube una foto o PDF de tu factura, carta o documento.",
+  "mb.upload": "Subir documento",
+  "mb.camera": "Tomar foto",
+  "mb.translate": "Traducir texto completo",
+  "mb.clear": "Limpiar",
+  "mb.to": "A",
+  "mb.footnote": "Tu documento se procesa de manera segura y no se guarda permanentemente.",
+
+  "site.disclaimer": "Aviso: Voyadecir es solo para traducción informativa y no cumple con HIPAA ni FERPA. No subas información de salud personal (PHI) ni registros educativos. No constituye asesoramiento legal, médico ni financiero.",
+
+  "translate.warnings": "Advertencias",
+  "translate.alternatives": "Alternativas y significados"
+}

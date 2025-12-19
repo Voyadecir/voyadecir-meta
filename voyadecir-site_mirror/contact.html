@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Voyadecir — Contact</title>
+  <meta name="description" content="Contact Voyadecir support. Report bugs, request help, or share feedback." />
+
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/assets/css/styles.css?v=101" />
+
+  <script defer src="/assets/js/main.js?v=101"></script>
+  <script defer src="/assets/js/asst-widget.js?v=101"></script>
+</head>
+
+<body class="contact-page">
+  <!-- Fixed header (always visible) -->
+  <header>
+    <div class="container nav">
+      <!-- Brand -->
+      <div class="brand">
+        <img
+          src="/assets/img/Voyadecir%20Logo.svg"
+          alt="Voyadecir logo"
+          class="logo"
+        />
+        <div>
+          <div class="brand-title">Voyadecir</div>
+          <span class="tagline">Translate. Understand. Connect.</span>
+        </div>
+      </div>
+
+      <!-- Primary nav (Option C) -->
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="/index.html" data-nav="home">Home</a>
+        <a href="/translate.html" data-nav="translate">Translate</a>
+        <a href="/mail-bills.html" data-nav="mail">Mail &amp; Bills</a>
+
+        <div class="nav-more" aria-label="More menu">
+          <button class="nav-more__button" type="button" aria-haspopup="true" aria-expanded="false">
+            More ▾
+          </button>
+          <ul class="nav-more__list" role="menu">
+            <li><a href="/about.html" role="menuitem">About</a></li>
+            <li><a href="/contact.html" role="menuitem" aria-current="page">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Language menu (always on top) -->
+      <div class="lang-menu" aria-label="Language menu">
+        <button class="lang-menu__button" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Change language">
+          🌐
+        </button>
+        <ul class="lang-menu__list" role="menu" aria-label="Language options">
+          <li><button class="lang-menu__link" type="button" data-lang="en">English</button></li>
+          <li><button class="lang-menu__link" type="button" data-lang="es">Español</button></li>
+          <li><button class="lang-menu__link" type="button" data-lang="fr">Français</button></li>
+          <li><button class="lang-menu__link" type="button" data-lang="pt">Português</button></li>
+          <li><button class="lang-menu__link" type="button" data-lang="zh">中文</button></li>
+          <li><button class="lang-menu__link" type="button" data-lang="ar">العربية</button></li>
+          <li><button class="lang-menu__link" type="button" data-lang="hi">हिन्दी</button></li>
+          <li><button class="lang-menu__link" type="button" data-lang="bn">বাংলা</button></li>
+          <li><button class="lang-menu__link" type="button" data-lang="ru">Русский</button></li>
+          <li><button class="lang-menu__link" type="button" data-lang="ur">اردو</button></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section contact-shell">
+    <div class="translate-shell">
+      <h1 class="translate-title">Contact Support</h1>
+      <p class="translate-sub">
+        Send a message to Voyadecir support. If something is broken, include what you uploaded, what you expected, and what you saw.
+      </p>
+
+      <div class="card glass glass-surface">
+        <div class="inner">
+          <h2>Send a message</h2>
+
+          <!--
+            IMPORTANT:
+            Replace the action URL with your real Formspree endpoint when ready.
+            Example: https://formspree.io/f/abcdwxyz
+          -->
+          <form
+            id="contact-form"
+            class="contact-form"
+            method="POST"
+            action="https://formspree.io/f/REPLACE_ME"
+          >
+            <input type="hidden" name="subject" value="Voyadecir Support Request" />
+            <input type="hidden" name="page" value="" />
+            <input type="hidden" name="lang" value="" />
+            <input type="hidden" name="userAgent" value="" />
+            <input type="hidden" name="timestamp" value="" />
+
+            <div>
+              <label for="c-name">Name</label>
+              <input id="c-name" name="name" type="text" autocomplete="name" placeholder="Your name" />
+            </div>
+
+            <div>
+              <label for="c-email">Email</label>
+              <input id="c-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+            </div>
+
+            <div>
+              <label for="c-message">Message</label>
+              <textarea
+                id="c-message"
+                name="message"
+                placeholder="Describe the issue or request. Include any error message you saw."
+                required
+              ></textarea>
+            </div>
+
+            <div style="display:flex; gap:12px; flex-wrap:wrap;">
+              <button class="glass-button" type="submit">Send Message</button>
+              <a class="glass-button" href="/mail-bills.html">Go to Mail &amp; Bills</a>
+              <a class="glass-button" href="/translate.html">Go to Translate</a>
+            </div>
+          </form>
+
+          <p class="translate-footnote" style="margin-top:14px;">
+            Note: Please do not upload PHI or student education records. For urgent legal/medical/financial matters, verify against original documents or consult a qualified professional.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <div class="footer-legal">
+        © 2025 Voyadecir — All rights reserved. &nbsp;|&nbsp;
+        Disclaimer: Voyadecir is for informational translation only and is not HIPAA- or FERPA-compliant. Do not upload personal health information (PHI) or student education records. Not legal, medical, or financial advice.
+      </div>
+
+      <div class="button-container" aria-label="Social links">
+        <a class="glass-btn" href="#" aria-label="Facebook">
+          <img src="https://i.postimg.cc/DwbWDQTx/facebook.png" alt="Facebook">
+        </a>
+
+        <a class="glass-btn" href="#" aria-label="YouTube">
+          <img src="https://i.postimg.cc/LstJ4Hhf/youtube.png" alt="YouTube">
+        </a>
+
+        <a class="glass-btn" href="#" aria-label="SoundCloud">
+          <img src="https://i.postimg.cc/tgQ1H1Rp/soundcloud.png" alt="SoundCloud">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Fill hidden fields (keeps support requests useful)
+    (function () {
+      const f = document.getElementById("contact-form");
+      if (!f) return;
+
+      const set = (name, value) => {
+        const el = f.querySelector('input[name="' + name + '"]');
+        if (el) el.value = value;
+      };
+
+      set("page", location.href);
+      set("lang", (window.currentLang || localStorage.getItem("voyadecir_lang") || document.documentElement.lang || "en"));
+      set("userAgent", navigator.userAgent);
+      set("timestamp", new Date().toISOString());
+    })();
+  </script>
+</body>
+</html>

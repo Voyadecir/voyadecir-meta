@@ -1,0 +1,24 @@
+{
+  "nav.home": "Home",
+  "nav.translate": "Translate",
+  "nav.mail": "Mail & Bills",
+  "nav.more": "More",
+  "nav.about": "About",
+  "nav.contact": "Contact",
+  "nav.privacy": "Privacy",
+  "nav.terms": "Terms",
+
+  "mb.title": "Mail & Bills Helper",
+  "mb.subtitle": "Upload a photo or PDF of your bill, letter, or document.",
+  "mb.upload": "Upload Document",
+  "mb.camera": "Take Picture",
+  "mb.translate": "Translate Full Text",
+  "mb.clear": "Clear",
+  "mb.to": "To",
+  "mb.footnote": "Your document is processed securely and not stored permanently.",
+
+  "site.disclaimer": "Disclaimer: Voyadecir is for informational translation only and is not HIPAA- or FERPA-compliant. Do not upload personal health information (PHI) or student education records. Not legal, medical, or financial advice.",
+
+  "translate.warnings": "Warnings",
+  "translate.alternatives": "Alternatives & meanings"
+}
