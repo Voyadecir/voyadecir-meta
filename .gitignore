@@ -1,0 +1,6 @@
+﻿# Codex mirror junk (keep repo small and fast)
+**/__pycache__/
+**/*.pyc
+ai-translator_mirror/data/temp/
+ai-translator_mirror/data/output/
+ai-translator_mirror/.coverage
