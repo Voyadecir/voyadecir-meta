@@ -1,0 +1,9 @@
+[submodule "ai-translator"]
+	path = ai-translator
+	url = https://github.com/Voyadecir/ai-translator.git
+[submodule "azure-funcs-voyadecir"]
+	path = azure-funcs-voyadecir
+	url = https://github.com/Voyadecir/azure-funcs-voyadecir.git
+[submodule "voyadecir-site"]
+	path = voyadecir-site
+	url = https://github.com/Voyadecir/voyadecir-site.git
