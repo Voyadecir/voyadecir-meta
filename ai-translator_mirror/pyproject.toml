@@ -23,6 +23,7 @@ dependencies = [
   "python-multipart",
   "rich",
   "tenacity",
+  "langdetect",
 ]
 
 [project.optional-dependencies]
